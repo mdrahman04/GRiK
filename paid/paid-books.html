@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://kit.fontawesome.com/3e0a8fd511.js" crossorigin="anonymous"></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Get Rich In Knowledge</title>
+</head>
+<body>
+  <div class="overlay"></div>
+  <nav>
+    <input type="checkbox" id="check">
+    <label for="check" class="checkbtn">
+      <i class="fas fa-bars"></i>
+    </label>
+    <label class="logo">GRiK</label>
+    <ul>
+      <li><a href="../index.html">Home</a></li>
+      <li><a href="../free-books.html">Free Books</a></li>
+      <li><a class="active" href="paid-books.html">Paid Books</a></li>
+      <li><a href="cart.html" target="_blank">Cart</a></li>
+    </ul>
+  </nav>
+
+  <main class="content-wrapper">
+    <section class="books" id="booksSection">
+      <div class="container">
+        <div class="search-container">
+          <input type="text" id="search-input" placeholder="Search by title or author">
+          <button id="filter-button">Search</button>
+        </div>
+        <div id="books-container"><p id="error-message"></p></div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    Thank You For Choosing Us<br>
+    <p>&copy;2023 Get Rich In Knowledge</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

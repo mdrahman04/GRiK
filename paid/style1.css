@@ -1,0 +1,72 @@
+	body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 20px;
+    }
+	
+    h1 {
+      text-align: center;
+    }
+
+    .cart-item {
+      display: flex;
+      align-items: center;
+      margin-bottom: 20px;
+      padding: 10px;
+      background-color: #f7e3a8;
+      border-radius: 5px;
+    }
+
+    .book-details {
+      flex-grow: 1;
+      margin-left: 10px;
+    }
+
+    .book-title {
+      font-size: 20px;
+      font-weight: bold;
+    }
+
+    .book-author {
+      font-size: 16px;
+      color: #666666;
+    }
+
+    .book-price {
+      font-size: 18px;
+      font-weight: bold;
+    }
+
+    .remove-button {
+      color: #ff0000;
+      cursor: pointer;
+      font-weight: bold;
+	  margin-left: 5px;
+    }
+
+    .price-column {
+      text-align: right;
+    }
+	
+	footer {
+		margin-top: 30px;
+		padding: 20px;
+		color: black;
+		text-align: center;
+	}
+	
+    @media only screen and (max-width: 600px) {
+      .cart-item {
+        flex-direction: column;
+      }
+
+      .book-details {
+        margin-top: 10px;
+        margin-left: 0;
+      }
+
+      .price-column {
+        text-align: left;
+        margin-top: 10px;
+      }
+	}

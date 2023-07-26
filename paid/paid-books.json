@@ -1,0 +1,124 @@
+{
+  "books": [
+    {
+      "title": "Beyond The Evil",
+      "author": "Lunak Everdusk",
+      "link": "../assets/demo.pdf",
+      "price": "12.99 $"
+    },
+    {
+      "title": "The Quantum Enigma",
+      "author": "Aideen Nitwang",
+      "link": "../assets/demo.pdf",
+      "price": "10.99 $"
+    },
+    {
+      "title": "Whispers of The Celestials",
+      "author": "Seraphina Stardancer",
+      "link": "../assets/demo.pdf",
+      "price": "9.99 $"
+    },
+    {
+      "title": "Eclipse of The Nebula",
+      "author": "Zaara Moonshadow",
+      "link": "../assets/demo.pdf",
+      "price": "11.99 $"
+    },
+    {
+      "title": "Mystic Harmonies",
+      "author": "Xander Stargazer",
+      "link": "../assets/demo.pdf",
+      "price": "13.99 $"
+    },
+    {
+      "title": "Journey to the Starlight Realm",
+      "author": "Astrid Skyfall",
+      "link": "../assets/demo.pdf",
+      "price": "12.49 $"
+    },
+    {
+      "title": "Galactic Odyssey",
+      "author": "Orion Cosmos",
+      "link": "../assets/demo.pdf",
+      "price": "9.99 $"
+    },
+    {
+      "title": "The Enchanted Nebula",
+      "author": "Aria Moonwhisper",
+      "link": "../assets/demo.pdf",
+      "price": "11.49 $"
+    },
+    {
+      "title": "Spectrum of Stars",
+      "author": "Felicity Stardust",
+      "link": "../assets/demo.pdf",
+      "price": "14.99 $"
+    },
+    {
+      "title": "Astral Dreams",
+      "author": "Solara Nightfire",
+      "link": "../assets/demo.pdf",
+      "price": "12.99 $"
+    },
+    {
+      "title": "Cosmic Chronicles",
+      "author": "Nyx Stardancer",
+      "link": "../assets/demo.pdf",
+      "price": "10.99 $"
+    },
+    {
+      "title": "Infinity's Edge",
+      "author": "Zephyr Starblade",
+      "link": "../assets/demo.pdf",
+      "price": "13.49 $"
+    },
+    {
+      "title": "The Stellar Sonata",
+      "author": "Elysia Moonlight",
+      "link": "../assets/demo.pdf",
+      "price": "11.99 $"
+    },
+    {
+      "title": "Lunar Whispers",
+      "author": "Draven Darkmoon",
+      "link": "../assets/demo.pdf",
+      "price": "10.49 $"
+    },
+    {
+      "title": "Astroverse Adventures",
+      "author": "Stella Stardust",
+      "link": "../assets/demo.pdf",
+      "price": "12.99 $"
+    },
+    {
+      "title": "The Nebula Conspiracy",
+      "author": "Caden Stardusk",
+      "link": "../assets/demo.pdf",
+      "price": "11.99 $"
+    },
+    {
+      "title": "Cosmos Unveiled",
+      "author": "Raine Nova",
+      "link": "../assets/demo.pdf",
+      "price": "13.99 $"
+    },
+    {
+      "title": "Moonlit Serenade",
+      "author": "Aurora Nightshade",
+      "link": "../assets/demo.pdf",
+      "price": "12.49 $"
+    },
+    {
+      "title": "Beyond Astral Realms",
+      "author": "Zenith Starweaver",
+      "link": "../assets/demo.pdf",
+      "price": "10.99 $"
+    },
+    {
+      "title": "The Celestial Cipher",
+      "author": "Nyx Shadowfire",
+      "link": "../assets/demo.pdf",
+      "price": "11.49 $"
+    }
+  ]
+}
