@@ -147,20 +147,25 @@ main {
 
 /*search*/
 .search-container {
-  display: flex;
+  flex-direction: column;
+  align-items: center;
   margin-bottom: 20px;
 }
 
 #search-input {
-  flex: 1;
+  width: 100;
+  max-width: 350px;
   padding: 10px;
   font-size: 16px;
   background: #f7e3a8;
   border: 1px solid #fcbd0d;
   border-radius: 8px;
+  marging-bottom: 10px;
 }
 
 #filter-button {
+  width: 100%;
+  max-width: 100px;
   padding: 10px 20px;
   font-size: 16px;
   background-color: #f7e3a8;
@@ -168,7 +173,6 @@ main {
   color: black;
   border-radius: 8px;
   cursor: pointer;
-  margin-left: 10px;
 }
 
 #filter-button:hover{
@@ -260,5 +264,9 @@ footer {
   }
   .books-container{
 	grid-template-columns: 1fr;
+	gap: 10px;
+  }
+  .book-card{
+	  width: 100%;
   }
 }
