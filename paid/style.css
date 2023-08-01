@@ -135,37 +135,28 @@ a.active,a:hover{
 }
 /*end*/
 
-main {
-  padding: 20px;
-}
-
 .content-wrapper {
-  margin-left: auto;
-  margin-right: auto;
+  margin: 80px auto;
   max-width: 1200px;
 }
 
 /*search*/
 .search-container {
-  flex-direction: column;
-  align-items: center;
-  margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+  margin: 0 20px 20px;
 }
 
 #search-input {
-  width: 100;
-  max-width: 350px;
+  flex: 1;
   padding: 10px;
   font-size: 16px;
   background: #f7e3a8;
   border: 1px solid #fcbd0d;
   border-radius: 8px;
-  marging-bottom: 10px;
 }
 
 #filter-button {
-  width: 100%;
-  max-width: 100px;
   padding: 10px 20px;
   font-size: 16px;
   background-color: #f7e3a8;
@@ -173,6 +164,7 @@ main {
   color: black;
   border-radius: 8px;
   cursor: pointer;
+  margin-left: 10px;
 }
 
 #filter-button:hover{
@@ -183,15 +175,40 @@ main {
 }
 /*end*/
 
+/**/
+
 #books-container {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 20px;
-  margin: 0 auto;
-  max-width: 1200px;
-  padding: 0 20px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 20px;
+  margin: 0 20px;
 }
+
+#books-container div {
+  padding: 20px;
+  border-radius: 4px;
+}
+
+#books-container h3 {
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+#books-container p {
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+#books-container a {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #333;
+  color: white;
+  text-decoration: none;
+  border-radius: 8px;
+}
+
 
 .book-card {
   background: #e3c571;
@@ -199,7 +216,6 @@ main {
   padding: 10px;
   text-align: center;
   transition: box-shadow 0.3s ease;
-  width: calc((100% - 40px)/2);
 }
 
 .book-card:hover {
@@ -221,6 +237,9 @@ main {
 .book-card h3 {
   margin-top: 0;
 }
+
+/**/
+
 
 footer {
   color: #000000;
@@ -253,6 +272,9 @@ footer {
   nav ul li {
 	margin: 15px 0;
   }
+  .content-wrapper{
+	  margin-top: 40px;
+  }
 }
 
 @media only screen and (max-width: 600px) {
@@ -262,11 +284,10 @@ footer {
   nav ul li {
 	margin: 15px 0;
   }
-  .books-container{
-	grid-template-columns: 1fr;
-	gap: 10px;
+  .content-wrapper{
+	  margin-top: 40px;
   }
-  .book-card{
-	  width: 100%;
+  #books-container{
+	grid-template-columns: 1fr;
   }
 }
